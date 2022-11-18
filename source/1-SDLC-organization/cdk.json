@@ -2,14 +2,17 @@
   "app": "npx ts-node bin/sdlc-organization.ts",
   "context": {
     "@aws-cdk/core:newStyleStackSynthesis": true,
-    "github_alias": "<YOUR GITHUB ALIAS>",
+    "github_alias": "CurlyBraces-biz",
     "github_repo_name": "aws-bootstrap-kit-examples",
     "github_repo_branch": "main",
-    "email": "<YOUR ROOT EMAIL>",
-    "domain_name": "<YOUR DOMAIN NAME>",
+    "email": "jason@curlybraces.biz",
+    "domain_name": "curlybraces.biz",
     "force_email_verification": true,
     "pipeline_deployable_regions": [
       "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2",
       "eu-west-1"
     ]
   }
