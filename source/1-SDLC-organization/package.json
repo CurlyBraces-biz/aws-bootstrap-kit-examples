@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "echo no tests",
+    "test": "echo no test",
     "cdk": "cdk",
     "bootstrap": "cdk --profile cb-jason-admin bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess",
     "synth": "cdk --profile cb-jason-admin synth",
